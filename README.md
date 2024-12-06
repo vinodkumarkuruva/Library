@@ -31,6 +31,12 @@ This project is a simple library management system built with Flask, SQLAlchemy,
   - pip (Python package installer)
   - SQLite (or another database you prefer, though the app is configured for SQLite by default)
 ```
+2.Clone the repository :
+
+```bash
+dasd
+
+```
 
 2.Steps to Set Up :
 
