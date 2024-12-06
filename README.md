@@ -42,8 +42,8 @@ To activate the virtual Environment   :    < name of virtual Environment >/Scrip
 Install dependencies                  :    pip install -r requirements.txt
  
 Set up the database                   :    flask db init
- 	                                            flask db migrate -m "Initial migration"
-                                              flask db upgrade
+                                           flask db migrate -m "Initial migration"
+                                           flask db upgrade
  
 Run the server                        :    Python app.py 
  
@@ -78,14 +78,13 @@ Run the Docker container            :     docker run -p 5000:5000 < name of Imag
 
  5.Other Info :
 
- ``` bash
 --> Error Handling: The application returns appropriate HTTP 400 status codes for bad requests, such as when a book is unavailable or a student has already issued the maximum number of books.
 
 --> Modularity: The application is designed to be modular, with separate services handling business logic, making the codebase easy to maintain and extend.
 
 --> Docker Support: A Dockerfile is included for containerization, making it easy to deploy the application in different environments.
 
- ```
+ 
 ## Documentation
 
 [Python_Documentation](https://docs.python.org/3/)
