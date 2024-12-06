@@ -34,11 +34,11 @@ This project is a simple library management system built with Flask, SQLAlchemy,
 2.Clone the repository :
 
 ```bash
-dasd
-
+git clone https://github.com/vinodkumarkuruva/Library.git
+cd Library
 ```
 
-2.Steps to Set Up :
+3.Steps to Set Up :
 
 ```bash
 Create a virtual environment          :    python3 -m venv < name of virtual Environment > 
@@ -57,7 +57,7 @@ Run the server                        :    Python app.py
 
    ```
 
-3.Running the Application with Docker : 
+4.Running the Application with Docker : 
 
 ```bash
 Build the Docker image              :     docker build -t < name of image > .
@@ -67,7 +67,7 @@ Run the Docker container            :     docker run -p 5000:5000 < name of Imag
 * The application will be available at http://localhost:5000
 
 ```
-4.Structure of the application :
+5.Structure of the application :
 
 ```bash
  /Stack
@@ -82,14 +82,15 @@ Run the Docker container            :     docker run -p 5000:5000 < name of Imag
  └── README.md              		    
  ```
 
- 5.Other Info :
+ 6.Other Info :
+ ```bash
 
 --> Error Handling: The application returns appropriate HTTP 400 status codes for bad requests, such as when a book is unavailable or a student has already issued the maximum number of books.
 
 --> Modularity: The application is designed to be modular, with separate services handling business logic, making the codebase easy to maintain and extend.
 
 --> Docker Support: A Dockerfile is included for containerization, making it easy to deploy the application in different environments.
-
+```
  
 ## Documentation
 
